@@ -1,0 +1,51 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 0;
+}
+#nav{
+    margin: 0;
+    background-color: #22b2da;
+    height: 50px;
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+}
+ul{
+    padding-top:13px;
+    list-style:  none;
+}
+#nav ul li{
+    
+    display: inline;
+}
+.dimensions{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+button{
+    cursor: pointer;
+    background-color: #22b2da;
+    border-radius: 5px;
+    border: none;
+    padding: 7px 15px 7px 15px ;
+}
+input{
+    border: 1px solid grey;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+textarea { 
+    margin-top: 5px;
+    border-radius: 8px;
+    resize: none;
+}
+#data{
+    display: none;
+    background-color: rgba(214, 214, 214, 0.808);
+    width:30%;
+    padding: 10px 0px 10px 15px;
+    border-radius: 5px;
+}
+li p{
+    display: inline;
+}
